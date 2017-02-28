@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		07DA69441E6504E500FB150D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA69431E6504E500FB150D /* AppDelegate.swift */; };
-		07DA69461E6504E500FB150D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA69451E6504E500FB150D /* ViewController.swift */; };
+		07DA69461E6504E500FB150D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA69451E6504E500FB150D /* LoginVC.swift */; };
 		07DA69491E6504E500FB150D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DA69471E6504E500FB150D /* Main.storyboard */; };
 		07DA694B1E6504E500FB150D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DA694A1E6504E500FB150D /* Assets.xcassets */; };
 		07DA694E1E6504E500FB150D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DA694C1E6504E500FB150D /* LaunchScreen.storyboard */; };
+		07DA69561E65084400FB150D /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA69551E65084400FB150D /* MusicListVC.swift */; };
+		07DA69581E6510B900FB150D /* PlaySongVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DA69571E6510B900FB150D /* PlaySongVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07DA69401E6504E500FB150D /* 46-Seques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "46-Seques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DA69431E6504E500FB150D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07DA69451E6504E500FB150D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07DA69451E6504E500FB150D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		07DA69481E6504E500FB150D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07DA694A1E6504E500FB150D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07DA694D1E6504E500FB150D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07DA694F1E6504E500FB150D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DA69551E65084400FB150D /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		07DA69571E6510B900FB150D /* PlaySongVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				07DA69431E6504E500FB150D /* AppDelegate.swift */,
-				07DA69451E6504E500FB150D /* ViewController.swift */,
+				07DA69451E6504E500FB150D /* LoginVC.swift */,
 				07DA69471E6504E500FB150D /* Main.storyboard */,
 				07DA694A1E6504E500FB150D /* Assets.xcassets */,
 				07DA694C1E6504E500FB150D /* LaunchScreen.storyboard */,
 				07DA694F1E6504E500FB150D /* Info.plist */,
+				07DA69551E65084400FB150D /* MusicListVC.swift */,
+				07DA69571E6510B900FB150D /* PlaySongVCViewController.swift */,
 			);
 			path = "46-Seques";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DA69461E6504E500FB150D /* ViewController.swift in Sources */,
+				07DA69561E65084400FB150D /* MusicListVC.swift in Sources */,
+				07DA69461E6504E500FB150D /* LoginVC.swift in Sources */,
+				07DA69581E6510B900FB150D /* PlaySongVCViewController.swift in Sources */,
 				07DA69441E6504E500FB150D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +271,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ValorDesigns.-6-Seques";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -275,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ValorDesigns.-6-Seques";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
