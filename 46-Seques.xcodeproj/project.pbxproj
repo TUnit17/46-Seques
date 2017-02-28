@@ -12,6 +12,7 @@
 		07DA69491E6504E500FB150D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DA69471E6504E500FB150D /* Main.storyboard */; };
 		07DA694B1E6504E500FB150D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DA694A1E6504E500FB150D /* Assets.xcassets */; };
 		07DA694E1E6504E500FB150D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DA694C1E6504E500FB150D /* LaunchScreen.storyboard */; };
+		07ED5F421E65211400CAD804 /* PlaySongVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED5F411E65211400CAD804 /* PlaySongVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		07DA694A1E6504E500FB150D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07DA694D1E6504E500FB150D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07DA694F1E6504E500FB150D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ED5F411E65211400CAD804 /* PlaySongVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		07DA69421E6504E500FB150D /* 46-Seques */ = {
 			isa = PBXGroup;
 			children = (
+				07ED5F411E65211400CAD804 /* PlaySongVCViewController.swift */,
 				07DA69431E6504E500FB150D /* AppDelegate.swift */,
 				07DA69451E6504E500FB150D /* ViewController.swift */,
 				07DA69471E6504E500FB150D /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07ED5F421E65211400CAD804 /* PlaySongVCViewController.swift in Sources */,
 				07DA69461E6504E500FB150D /* ViewController.swift in Sources */,
 				07DA69441E6504E500FB150D /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +301,7 @@
 				07DA69541E6504E500FB150D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
